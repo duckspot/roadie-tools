@@ -1,0 +1,11 @@
+{ "tool": "git",
+  "version": "1.8.5.2.msysgit.0",
+  "downloads": [ "https://github.com/duckspot/devops/releases/download/v2014-03-03/Git.zip"],
+  "install": [
+    "unzip %DEV_PATH%\\var\\devops\\git\\Git.zip -d %DEV_TOOLS%"    
+  ],
+  "setup": [
+    "set GIT_HOME=%DEV_TOOLS%\\Git",
+    "path %GIT_HOME%\\bin;%path%"
+  ]
+}
